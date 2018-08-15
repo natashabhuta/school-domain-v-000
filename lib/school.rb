@@ -27,6 +27,5 @@ attr_accessor :name, :roster
 
 def sort
   @roster.sort_by{|name| grade, name}
-  @roster
 end 
 end 
