@@ -26,7 +26,7 @@ attr_accessor :name, :roster
 
 
 def sort
-  @roster.sort!
+  @roster.sort
   @roster
 end 
 end 
