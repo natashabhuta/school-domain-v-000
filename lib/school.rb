@@ -25,7 +25,7 @@ attr_accessor :name, :roster
   end 
 
 
-def sort(student_name)
+def sort
   @roster.sort_by{|names| name}
 end 
 end 
