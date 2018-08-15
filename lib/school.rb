@@ -26,6 +26,6 @@ attr_accessor :name, :roster
 
 
 def sort
-  @roster.sort_by{|grade| name[grade]}
+  @roster.sort_by{|grade| grade["name"]}
 end 
 end 
